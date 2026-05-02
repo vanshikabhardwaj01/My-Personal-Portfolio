@@ -29,9 +29,10 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutme">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -59,12 +60,14 @@
       Hi, I'm <span class="purple">Vanshika Bhardwaj</span>
     </div>
     <p class="short">
-      Computer Science student passionate about Web & Software Development.
+      A 4th-year Computer Science student passionate about Full-Stack & Software Development.
     </p>
   </div>
 
   <div class="rightsection">
-    <img src="portfolio.png.jpg" alt="Profile Image">
+    <div class="profile-img-container">
+      <img src="portfolio.png.jpg" alt="Profile Image">
+    </div>
   </div>
 </section>
 
@@ -72,45 +75,63 @@
 <section id="aboutme" class="secondsection">
   <h1>ABOUT ME</h1>
   <p class="intro">
-    I am an enthusiastic Computer Science student with a strong interest in
-    technology, problem solving, and development. I enjoy working on projects
-    that strengthen my coding skills and practical knowledge.
+    I am an enthusiastic Computer Science student with a strong interest in technology, problem solving, and full-stack development. I enjoy taking ideas from end-to-end and writing clean, maintainable code.
   </p>
 
   <p class="intro">
-    Apart from academics, I enjoy reading, listening to music, watching movies,
-    and swimming which helps me stay active and disciplined.
+    Apart from academics, I enjoy reading, listening to music, watching movies, and swimming which helps me stay active and disciplined.
   </p>
 
   <div class="skill">SKILLS & TOOLS</div>
 
   <h2 class="heading">Languages</h2>
   <div class="skills-container">
-    <div class="skill-box">C++</div>
+    <div class="skill-box">C / C++</div>
     <div class="skill-box">Java</div>
-    <div class="skill-box">C</div>
+    <div class="skill-box">Python</div>
+    <div class="skill-box">SQL</div>
   </div>
 
-  <h2 class="heading">Web Technologies</h2>
+  <h2 class="heading">Web Technologies & Frameworks</h2>
   <div class="skills-container">
-    <div class="skill-box">HTML</div>
-    <div class="skill-box">CSS</div>
-    <div class="skill-box">JavaScript</div>
+    <div class="skill-box">JavaScript / TypeScript</div>
+    <div class="skill-box">React.js</div>
+    <div class="skill-box">Node.js / Express.js</div>
+    <div class="skill-box">Flask</div>
+    <div class="skill-box">HTML / CSS</div>
+  </div>
+  
+  <h2 class="heading">Technologies</h2>
+  <div class="skills-container">
+    <div class="skill-box">MongoDB</div>
+    <div class="skill-box">SQLite</div>
+    <div class="skill-box">REST APIs</div>
+    <div class="skill-box">Generative AI</div>
+    <div class="skill-box">Machine Learning</div>
   </div>
 
-  <h2 class="heading">Tools</h2>
+  <h2 class="heading">Tools & Soft Skills</h2>
   <div class="skills-container">
-    <div class="skill-box">VS Code</div>
-    <div class="skill-box">Netbeans</div>
-    <div class="skill-box">Windows</div>
-  </div>
-
-  <h2 class="heading">Soft Skills</h2>
-  <div class="skills-container">
-    <div class="skill-box">Communication</div>
+    <div class="skill-box">Git / GitHub</div>
+    <div class="skill-box">Linux</div>
     <div class="skill-box">Leadership</div>
     <div class="skill-box">Public Speaking</div>
-    <div class="skill-box">Teamwork</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="secondsection">
+  <h1>EXPERIENCE</h1>
+  <div class="projects-container">
+    <div class="project-box experience-box">
+      <strong>Web Development Intern (Remote)</strong>
+      <p style="color: #2563eb; font-weight: 600; margin-top: 5px;">Amdox Technology | Dec 2025 – Feb 2026</p>
+      <p class="desc">
+        • Built a Job Listing Portal and Certificate Verification System using the MERN stack in a team of 5, delivering secure authentication, role-based access, and real-time dashboards.<br><br>
+        • Developed advanced search, application tracking, bulk Excel upload, and auto-generated PDF certificates; implemented encrypted APIs for scalable production deployment.<br><br>
+        • Collaborated under mentor guidance across the full project lifecycle, gaining hands-on experience in agile workflows and full-stack development.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -119,73 +140,73 @@
   <h1 class="PROJECTS">PROJECTS</h1>
 
   <div class="projects-container">
+    
     <div class="project-box">
-      Sudoku Solver
+      <a href="https://github.com/vanshikabhardwaj01/WearVision" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>WearVision — AI Fashion Stylist</strong>
+      </a>
       <p class="desc">
-        Built a Sudoku Solver using C++ with backtracking algorithm for automatic puzzle solving.
-        Integrated a web interface using HTML, CSS, and JavaScript to allow users to input puzzles and get solutions instantly.
-        The project improves logical thinking and demonstrates algorithm implementation in a real-world scenario.
+        Full-stack AI fashion app with Google OAuth, JWT auth, and Groq AI (LLaMA 3.3) for outfit generation. Cloudflare SDXL for real-time image synthesis with multi-provider fallback. Features visualizer, style quiz, daily challenges, trend explorer, and saved outfits based on user preferences.
+        <br><strong>Tech:</strong> React.js, Node.js, MongoDB, Groq AI
       </p>
     </div>
 
     <div class="project-box">
-      Portfolio Website
+      <a href="https://github.com/vanshikabhardwaj01/fitai-calorie-burnt-prediction" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>FitAI — Fitness Tracking App</strong>
+      </a>
       <p class="desc">
-        Designed and developed a personal portfolio website to showcase my projects, skills, and achievements.
-        Utilized HTML, CSS, and JavaScript to create a responsive and interactive user experience.
-        The website demonstrates frontend design skills, responsive layouts, and project presentation.
+        MET-based calorie prediction for 60+ exercises with real-time calculations, BMI/BMR/TDEE analytics dashboard, and weekly progress charts via Recharts. Integrated Spoonacular and API Ninjas with fallback systems for dynamic meal planning.
+        <br><strong>Tech:</strong> React, TypeScript, Flask, MongoDB
       </p>
     </div>
 
     <div class="project-box">
-      Salesforce UI Clone
+      <a href="https://github.com/vanshikabhardwaj01/inhouseproject" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>Alzheimer’s Detection via EEG Signals</strong>
+      </a>
       <p class="desc">
-        Created a frontend clone of Salesforce UI using HTML and CSS to replicate clean layouts, navigation, and dashboard components.
-        Focused on responsive design and styling to mimic a professional SaaS interface.
-        This project helped enhance CSS, layout design, and attention to UI/UX details.
+        Comparing CNN, EfficientNet B0, Resnet50, and hybrid CNN-RESNET50 models on EEG datasets for early Alzheimer’s classification, achieving superior accuracy with the hybrid model. End-to-end pipeline includes signal preprocessing, model training, ROC curve visualization, and dashboards.
+        <br><strong>Tech:</strong> CNN, Resnet50, Python
       </p>
     </div>
 
     <div class="project-box">
-      Tic Tac Toe Game
+      <a href="https://github.com/vanshikabhardwaj01/FastSearch-Trie" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>FastSearch Engine</strong>
+      </a>
       <p class="desc">
-        Built a fun Tic Tac Toe game using HTML, CSS, and JavaScript with a simple, interactive design.
-        Coded the game logic to track player turns, declare winners, and handle draws automatically.
-        Made it engaging and responsive, ensuring smooth play across different devices.
-        <br><strong>Tech Stack:</strong> HTML, CSS, JavaScript
+        An interactive auto-complete search engine built from scratch. Implements a custom Trie (Prefix Tree) data structure to achieve O(L) string matching latency, proving optimization capabilities over standard array-filtering methods.
+        <br><strong>Tech:</strong> JavaScript, Algorithms, HTML/CSS
       </p>
     </div>
 
     <div class="project-box">
-      Chat Bot AI
+      <a href="https://github.com/vanshikabhardwaj01/Ecommerce-SQL-API" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>High-Concurrency E-Commerce API</strong>
+      </a>
       <p class="desc">
-        Designed an interactive chatbot interface using HTML and CSS for a clean and user-friendly experience.
-        Implemented chatbot logic in JavaScript to handle user inputs and provide dynamic responses.
-        Enhanced usability and engagement by integrating responsive design and smooth conversational flow.
-        <br><strong>Tech Stack:</strong> HTML, CSS, JavaScript
+        A backend API built with Node.js and Raw SQL (No ORMs). Engineered specifically to handle race conditions during checkout using BEGIN IMMEDIATE TRANSACTION and database locking to prevent inventory overselling.
+        <br><strong>Tech:</strong> Node.js, SQLite, Advanced SQL
       </p>
     </div>
+
+    <div class="project-box">
+      <a href="https://github.com/vanshikabhardwaj01/Pathfinding-Visualizer" target="_blank" style="text-decoration: none; color: inherit;">
+        <strong>Pathfinding Visualizer</strong>
+      </a>
+      <p class="desc">
+        A visual tool demonstrating Graph algorithms. Built entirely with Vanilla JavaScript and DOM manipulation. Features interactive grids where users can draw walls and visualize Dijkstra's Algorithm and BFS finding the shortest paths.
+        <br><strong>Tech:</strong> JavaScript, Graph Algorithms
+      </p>
+    </div>
+
   </div>
 
   <div class="resume">
-    <a class="resume1" href="Vanshikabhardwaj2316599resume.pdf" target="_blank">
+    <a class="resume1" href="Vanshika_Bhardwaj_Resume.pdf" target="_blank" title="Please upload your new resume PDF to the repository to make this link work!">
       Download Resume
     </a>
-  </div>
-</section>
-
-<!-- CERTIFICATIONS -->
-<section id="certifications" class="fifthsection">
-  <h1>CERTIFICATIONS & ACHIEVEMENTS</h1>
-  <div class="cert-list">
-    <p>Mastering Data Structures and Algorithms in C++ – Abdul Bari (Udemy)</p>
-    <p>Participation certification in TATA Crucible Campus Quiz 2025 organized by the Tata Group</p>
-    <p>Certified in "Introduction to Generative AI" powered by Google Cloud</p>
-    <p>Course Completion Certificate – "Data Analyst 101" powered by Microsoft</p>
-    <p>Nestlé E-learning 2025: Resilience – Successfully completed resilience skills program</p>
-    <p>Participated in Smart India Hackathon 2025 (Internal) and ranked among Top 15 teams</p>
-    <p>Course Completion Certificate – "Introduction to Prompt Engineering with GitHub Copilot"</p>
-    <p>Successfully participated in the Digital India Quiz and Achievements</p>
   </div>
 </section>
 
@@ -193,17 +214,36 @@
 <section id="education" class="fourthsection">
   <h1 class="education">EDUCATION</h1>
 
-  <p class="edu"><strong>B.Tech Computer Science</strong><br>
-    Banasthali Vidyapith (2023–2027) | Currently in 6th Semester | CGPA (up to 4th Sem): 8.31
+  <p class="edu"><strong>B.Tech in Computer Science</strong><br>
+    Banasthali Vidyapeeth University Rajasthan | 2023 – 2027<br>
+    CGPA: 8.7 (up to 5th Semester)
   </p>
 
-  <p class="edu"><strong>Class XII (PCM)</strong><br>
-    Montfort Sr. Sec. School | 84%
+  <p class="edu"><strong>Intermediate (Class XII) - PCM</strong><br>
+    Montfort Senior Sec School, CBSE Board Roorkee | 2020 – 2023<br>
+    84%
   </p>
 
-  <p class="edu"><strong>Class X</strong><br>
-    Montfort Sr. Sec. School | 96%
+  <p class="edu"><strong>High School (Class X)</strong><br>
+    Montfort Senior Sec School, CBSE Board Roorkee<br>
+    96.8%
   </p>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="fifthsection">
+  <h1>CERTIFICATIONS & ACHIEVEMENTS</h1>
+  <div class="cert-list">
+    <p>Certificate- TATA Crucible Campus Quiz 2025 — Tata Group</p>
+    <p>Certificate- Graph Theory Programming Camp — AlgoUniversity (Mentored by Codeforces Master Manas Kumar Verma)</p>
+    <p>Certificate — AI Summit 2026, Banasthali Vidyapeeth</p>
+    <p>Certificate- Mastering DSA in C++ — Abdul Bari (Udemy)</p>
+    <p>Certificate- Introduction to Generative AI — Google Cloud</p>
+    <p>Certificate- Data Analyst 101 — Microsoft</p>
+    <p>Certificate- Prompt Engineering with GitHub Copilot</p>
+    <p>Certificate- Completed Nestlé E-learning 2025 – Resilience program (Nesternship)</p>
+    <p>Internal Smart India Hackathon, Banasthali Vidyapeeth — Top 15 Teams</p>
+  </div>
 </section>
 
 <!-- CONTACT -->
@@ -241,3 +281,5 @@
     }
   });
 </script>
+</body>
+</html>
